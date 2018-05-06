@@ -7,14 +7,14 @@ export default class About extends Component {
     return (
       <Fragment>
         <Container fluid className="py-5 d-flex flex-row justify-content-center align-content-center text-center bg-main">
-          <h2 className="d-flex align-self-center text-white fs-xl py-5">
+          <h2 className="d-flex align-self-center text-white fs-xl py-md-5 py-0">
             About Us
           </h2>
         </Container>
-        <Container className="py-5 px-5 fs-md lh-1">
-          <div className="py-5 px-5">
+        <Container className="py-5 px-3 px-md-5 fs-md lh-1">
+          <div className="py-0 py-md-5 px-0 px-md-5">
             <p>
-              We help you help animals. Software development and technology consulting for those who service animals.
+              We help you help animals. We provide software development and technology consulting for those who service animals.
             </p>
             <p>
               For as long as he has been alive, the owner, Randy Brookins has always loved animals. He used to chase dogs around the neighborhood that escaped from their owner’s backyard, and make sure they got back home.
@@ -29,19 +29,6 @@ export default class About extends Component {
               Big Heart Consulting couldn’t exist without the help of the family and friends who got it this far, and I truly hope that we continue to help animals for years to come.
             </p>
           </div>
-        </Container>
-        <Container className="py-5">
-          <Row>
-            <Col xs="12" md="6">
-              <h5 className="fw-bold fs-sm">Contact Us</h5>
-              <div className="py-2">
-                <FontAwesomeIcon icon="phone" className="mr-2"/>(480) 236-6032
-              </div>
-              <a href="mailto:randy@bigheartconsulting.com" className="py-2">
-                <FontAwesomeIcon icon="envelope" className="mr-2"/>randy@bigheartconsulting.com
-              </a>
-            </Col>
-          </Row>
         </Container>
       </Fragment>
     )
