@@ -1,5 +1,6 @@
 @import "colors";
 @import "utils";
+@import "custom";
 
 .bg-randy {
   background-image: url("../assets/randy.jpg") center;
@@ -7,11 +8,20 @@
   background-size: cover;
 }
 
+.bg-frontpage {
+  background-image: url("../assets/frontpage.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 0px 10000px transparentize($black, 0.75);
+}
+
 .bg-main {
   background-image: url("../assets/main-image.jpg");
   height: 100%;
   background-position: center;
   background-size: cover;
+  box-shadow: inset 0px 0px 0px 10000px transparentize($black, 0.75);
 }
 
 body,
@@ -20,11 +30,9 @@ html,
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
-h1,
-h2 {
-  margin: 0;
-  color: white;
-  text-shadow: 2px 2px black;
+a {
+  text-decoration: none !important;
 }

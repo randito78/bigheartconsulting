@@ -1,0 +1,18 @@
+@import "colors";
+
+.btn {
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+.btn-primary {
+  background: $red;
+  &:hover {
+    background: darken($red, 10%);
+  }
+  &:active, &.active, &:focus, &.focus {
+    background: darken($red, 20%) !important;
+    outline: 0 !important;
+    box-shadow: 0px !important;
+  }
+}

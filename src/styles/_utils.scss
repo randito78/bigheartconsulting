@@ -347,6 +347,11 @@
 //   color: $googleplus !important;
 // }
 
+.list-style-none {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
 .user-select-none {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
