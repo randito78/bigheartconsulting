@@ -7,16 +7,14 @@ export default class Footer extends Component {
   render() {
     return (
       <Fragment>
-        <Container fluid className="py-5 bg-snow bt-2-fog">
+        <Container fluid={true} className="py-5 bg-snow bt-2-fog">
           <Container>
             <Row>
               <Col xs="12" md="3">
                 <h5 className="fw-bold fs-sm">About</h5>
                 <ul className="list-style-none">
                   <li className="py-2 fs-xs">
-                    <NavLink to="/about">
-                      About
-                    </NavLink>
+                    <NavLink to="/about">About</NavLink>
                   </li>
                 </ul>
               </Col>
@@ -24,13 +22,17 @@ export default class Footer extends Component {
                 <h5 className="fw-bold fs-sm">Contact Us</h5>
                 <ul className="list-style-none">
                   <li className="py-2 fs-xxs">
-                    <NavLink to="/about" activeClassName="fw-bold">
-                      <FontAwesomeIcon icon="phone" className="mr-2"/>(480) 236-6032
-                    </NavLink>
+                    <a href="tel:4802366032" className="py-2 fs-xxs">
+                      <FontAwesomeIcon icon="phone" className="mr-2" />(480)
+                      236-6032
+                    </a>{' '}
                   </li>
                   <li>
-                    <a href="mailto:randy@bigheartconsulting.com" className="py-2 fs-xxs">
-                      <FontAwesomeIcon icon="envelope" className="mr-2"/>randy@bigheartconsulting.com
+                    <a
+                      href="mailto:randy@bigheartconsulting.com"
+                      className="py-2 fs-xxs"
+                    >
+                      <FontAwesomeIcon icon="envelope" className="mr-2" />randy@bigheartconsulting.com
                     </a>
                   </li>
                 </ul>
@@ -38,10 +40,13 @@ export default class Footer extends Component {
             </Row>
           </Container>
         </Container>
-        <Container fluid className="py-2 text-center text-pebble bg-charcoal fs-xxs text-uppercase ls-1">
+        <Container
+          fluid={true}
+          className="py-2 text-center text-pebble bg-charcoal fs-xxs text-uppercase ls-1"
+        >
           &copy; 2018 Big Heart Consulting LLC
         </Container>
       </Fragment>
-    )
+    );
   }
 }

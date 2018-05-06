@@ -12,16 +12,16 @@ import About from './containers/About/About';
 
 import './fontawesome.js';
 import 'bootstrap/dist/css/bootstrap.css';
-import "./styles/styles.css";
+import './styles/styles.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <Container fluid className="px-0">
+        <Container fluid={true} className="px-0">
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact={true} path="/" component={Home} />
             <Route path="/about" component={About} />
           </Switch>
           <Footer />

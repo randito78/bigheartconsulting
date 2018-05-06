@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <Container fluid className="py-5 d-flex flex-row justify-content-center align-content-center text-center bg-main">
+        <Container fluid={true} className="py-5 d-flex flex-row justify-content-center align-content-center text-center bg-main">
           <h2 className="d-flex align-self-center text-white fs-xl py-md-5 py-0">
             About Us
           </h2>
@@ -30,6 +30,6 @@ export default class About extends Component {
           </div>
         </Container>
       </Fragment>
-    )
+    );
   }
 }

@@ -5,4 +5,4 @@ import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle';
 import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
 
-fontawesome.library.add(faPhone, faInfoCircle, faEnvelope)
+fontawesome.library.add(faPhone, faInfoCircle, faEnvelope);
