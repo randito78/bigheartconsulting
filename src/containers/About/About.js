@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { Container } from 'reactstrap';
 
 export default class About extends Component {
   render() {
