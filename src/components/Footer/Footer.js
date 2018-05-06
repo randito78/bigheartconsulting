@@ -15,14 +15,9 @@ export default class Footer extends Component {
               <Col xs="12" md="3">
                 <h5 className="fw-bold fs-sm">About</h5>
                 <ul className="list-style-none">
-                  <li className="py-2 fs-xxs">
+                  <li className="py-2 fs-xs">
                     <NavLink to="/about">
                       About
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/about">
-                      Contact Us
                     </NavLink>
                   </li>
                 </ul>
