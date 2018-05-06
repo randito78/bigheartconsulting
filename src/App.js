@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Toolbar from "./components/toolbar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Big Heart Consulting</h1>
-        <h2>We help you help animals</h2>
+        <Toolbar />
       </div>
     );
   }
