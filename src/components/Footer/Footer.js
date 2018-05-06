@@ -10,16 +10,8 @@ export default class Footer extends Component {
         <Container fluid={true} className="py-5 bg-snow bt-2-fog">
           <Container>
             <Row>
-              <Col xs="12" md="3">
-                <h5 className="fw-bold fs-sm">About</h5>
-                <ul className="list-style-none">
-                  <li className="py-2 fs-xs">
-                    <NavLink to="/about">About</NavLink>
-                  </li>
-                </ul>
-              </Col>
-              <Col xs="12" md="3">
-                <h5 className="fw-bold fs-sm">Contact Us</h5>
+              <Col xs="12" md="6" className="mx-auto text-center">
+                <h5 className="fw-bold fs-sm">Get In Touch</h5>
                 <ul className="list-style-none">
                   <li className="py-2 fs-xxs">
                     <a href="tel:4802366032" className="py-2 fs-xxs">
