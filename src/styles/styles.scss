@@ -1,5 +1,8 @@
+@import "colors";
+@import "utils";
+
 .App {
-  background-image: url("randy.jpg");
+  background-image: url("../assets/randy.jpg");
   height: 100%;
   background-size: cover;
 }
