@@ -9,13 +9,11 @@ import "./styles/styles.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Container fluid className="px-0">
         <Header />
-        <Container className="py-5 text-center">
-          <h1>Big Heart Consulting</h1>
-          <h2>We help you help animals</h2>
+        <Container fluid className="py-5 text-center bg-main" style={{minHeight: "calc(100vh - 86px)"}}>
         </Container>
-      </div>
+      </Container>
     );
   }
 }
