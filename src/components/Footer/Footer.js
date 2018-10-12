@@ -16,7 +16,7 @@ export default class Footer extends Component {
                   <li className="py-2 fs-xxs">
                     <a href="tel:4802366032" className="py-2 fs-xxs">
                       <FontAwesomeIcon icon="phone" className="mr-2" />(480)
-                      236-6032
+                      269-3079
                     </a>{' '}
                   </li>
                   <li>
