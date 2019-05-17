@@ -9,6 +9,9 @@ import Footer from './components/Footer/Footer';
 
 import Home from './containers/Home/Home';
 import About from './containers/About/About';
+import Donate from './containers/Donate/Donate';
+import Products from './containers/Products/Products';
+import Beneficiaries from './containers/Beneficiaries/Beneficiaries';
 
 import './fontawesome.js';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -23,6 +26,9 @@ class App extends Component {
           <Switch>
             <Route exact={true} path="/" component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/products" component={Products} />
+            <Route path="/beneficiaries" component={Beneficiaries} />
+            <Route path="/donate" component={Donate} />
           </Switch>
           <Footer />
         </Container>
