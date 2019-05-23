@@ -13,7 +13,7 @@ export default class Header extends Component {
         <div className="d-flex align-self-center ml-auto">
           <NavLink to="/" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">Home</NavLink>
           <NavLink to="/about" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">About</NavLink>
-          <NavLink to="/products" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">Products</NavLink>
+          <NavLink to="/products" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">Products and Services</NavLink>
           <NavLink to="/beneficiaries" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">Those We've Helped</NavLink>
           <NavLink to="/donate" className="d-flex align-self-center p-3 text-uppercase ls-1 text-charcoal">Donate</NavLink>
         </div>
