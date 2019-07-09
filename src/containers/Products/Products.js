@@ -19,14 +19,13 @@ export default class Products extends Component {
 
             <br/>
 
-            <h4>RescueFoster.com:</h4>
+            <h4><a target="_blank" rel="noopener noreferrer" href="http://www.rescuefoster.com">RescueFoster.com:</a></h4>
             <p>
               Bridging the gap between animal rescues and their fosters.
-              Easy foster signup with preferences about the foster home (for example if the home has children).
+              Fosters can sign up directly and choose what they want to foster (for example if the home has children).
               Preferences are then used to match animals to potential fosters. For example, matching a dog-aggressive foster animal to potential fosters that do not have dogs.
               The user can choose to broadcast to the potential fosters via email and text.
-              When potential fosters open the message, they can signup to foster the animal. 
-              The rescue's coordinator can then begin scheduling pickup! <b>Coming soon.</b>
+              When potential fosters open the message, they can signup to foster the animal. <a rel="noopener noreferrer" target="_blank" href="http://www.rescuefoster.com">Check it out</a>
             </p>
           </div>
         </Container>
